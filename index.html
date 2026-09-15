@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Нури — уроки и анкеты</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;min-height:100vh;background:linear-gradient(176deg,#F8F3EC 0%,#F6EFE6 40%,#F7EAEA 72%,#F2CFDA 100%);font-family:'Manrope',sans-serif;color:#443025;display:flex;justify-content:center;padding:44px 18px 60px}
+a{color:#EC9C9D;text-decoration:none}
+a:hover{color:#C9A961}
+.wrap{width:100%;max-width:430px;display:flex;flex-direction:column;gap:14px}
+.eyebrow{font-size:.625rem;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:#7F5836}
+h1{margin:12px 0 0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:2.25rem;line-height:1.08;letter-spacing:-.018em;color:#443025;text-wrap:pretty}
+.lead{margin:10px 0 18px;font-size:1rem;line-height:1.7;color:#5C4436;text-wrap:pretty}
+.card{display:flex;flex-direction:column;gap:6px;border-radius:24px;background:linear-gradient(158deg,#FFFFFF 0%,#FBF4EE 46%,#F7E9EC 100%);box-shadow:0 22px 44px -30px rgba(127,88,54,.5),inset 0 1px 0 rgba(255,255,255,.9);padding:22px 22px;color:#443025;transition:transform .32s cubic-bezier(.22,.61,.36,1),box-shadow .32s cubic-bezier(.22,.61,.36,1)}
+.card:hover{transform:translateY(-4px);box-shadow:0 28px 52px -28px rgba(127,88,54,.55)}
+.card .kind{font-size:.625rem;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:#AA7F66}
+.card h2{margin:0;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:1.5rem;line-height:1.14;letter-spacing:-.01em;color:#443025}
+.card p{margin:0;font-size:.9375rem;line-height:1.6;color:#5C4436;text-wrap:pretty}
+.rule{display:flex;align-items:center;gap:12px;margin:24px 0 6px}
+.rule span{flex:1;height:1px;background:linear-gradient(90deg,rgba(201,169,97,0),#C9A961)}
+.rule span:last-child{background:linear-gradient(270deg,rgba(201,169,97,0),#C9A961)}
+.pearl{width:9px;height:9px;flex:none;border-radius:999px;background:radial-gradient(circle at 32% 30%,#fff,#F2CFDA 55%,#EC9C9D)}
+footer{font-size:.75rem;line-height:1.6;color:#AA7F66;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="eyebrow">Нури</div>
+<h1>Уроки и анкеты</h1>
+<p class="lead">Открывается с телефона, ничего устанавливать не нужно.</p>
+</header>
+
+<a class="card" href="lesson-grounding.html">
+<span class="kind">Урок</span>
+<h2>Заземление: связь с телом и опорой</h2>
+<p>Практика возвращения устойчивости — дыхание, стопы, опора.</p>
+</a>
+
+<a class="card" href="guide-posture.html">
+<span class="kind">Гайд</span>
+<h2>Ось тела: настройка осанки</h2>
+<p>Три упражнения, которые дают разницу в теле уже сегодня.</p>
+</a>
+
+<a class="card" href="forms.html">
+<span class="kind">Анкеты</span>
+<h2>Анкеты курса</h2>
+<p>До курса, после урока, итог курса, заявка на созвон.</p>
+</a>
+
+<div class="rule"><span></span><span class="pearl"></span><span></span></div>
+<footer>Курс не заменяет медицинскую помощь. При острой боли сначала обратитесь к врачу.</footer>
+</div>
+</body>
+</html>
